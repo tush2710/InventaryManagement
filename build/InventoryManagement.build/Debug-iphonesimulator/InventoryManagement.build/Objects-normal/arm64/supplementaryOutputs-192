@@ -1,0 +1,30 @@
+"/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/InventoryManagement/Controllers/SaleOrderListVC.swift":
+  object: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/SaleOrderListVC.o"
+  swift-dependencies: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/SaleOrderListVC.swiftdeps"
+  const-values: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/SaleOrderListVC.swiftconstvalues"
+  dependencies: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/SaleOrderListVC.d"
+  diagnostics: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/SaleOrderListVC.dia"
+"/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/InventoryManagement/CDExtentions/CDInventoryExtention.swift":
+  swift-dependencies: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/CDInventoryExtention.swiftdeps"
+  diagnostics: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/CDInventoryExtention.dia"
+  object: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/CDInventoryExtention.o"
+  const-values: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/CDInventoryExtention.swiftconstvalues"
+  dependencies: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/CDInventoryExtention.d"
+"/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/InventoryManagement/Models/InventoryModel.swift":
+  swift-dependencies: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/InventoryModel.swiftdeps"
+  diagnostics: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/InventoryModel.dia"
+  const-values: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/InventoryModel.swiftconstvalues"
+  dependencies: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/InventoryModel.d"
+  object: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/InventoryModel.o"
+"/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/InventoryManagement/Managers/InventoryManager.swift":
+  const-values: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/InventoryManager.swiftconstvalues"
+  object: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/InventoryManager.o"
+  swift-dependencies: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/InventoryManager.swiftdeps"
+  diagnostics: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/InventoryManager.dia"
+  dependencies: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/InventoryManager.d"
+"/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/Inventory+CoreDataProperties.swift":
+  const-values: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/Inventory+CoreDataProperties.swiftconstvalues"
+  object: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/Inventory+CoreDataProperties.o"
+  dependencies: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/Inventory+CoreDataProperties.d"
+  diagnostics: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/Inventory+CoreDataProperties.dia"
+  swift-dependencies: "/Users/tusharzade/Desktop/TusharWorkingProjects/InventoryManagement/build/InventoryManagement.build/Debug-iphonesimulator/InventoryManagement.build/Objects-normal/arm64/Inventory+CoreDataProperties.swiftdeps"

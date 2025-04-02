@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D80" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Inventory" representedClassName="Inventory" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="productId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="totalPurchaedCost" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="totalPurchasedQuantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalSaleCost" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="totalSaleQuantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="toProduct" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="toInventory" inverseEntity="Product"/>
+    </entity>
+    <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="cost" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="productName" optional="YES" attributeType="String"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalCost" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="toInventory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Inventory" inverseName="toProduct" inverseEntity="Inventory"/>
+        <relationship name="toPurchase" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Purchase" inverseName="toProduct" inverseEntity="Purchase"/>
+        <relationship name="toSale" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Sale" inverseName="toProduct" inverseEntity="Sale"/>
+    </entity>
+    <entity name="Purchase" representedClassName="Purchase" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="productId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="purchasedQuantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalCost" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="toProduct" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="toPurchase" inverseEntity="Product"/>
+    </entity>
+    <entity name="Sale" representedClassName="Sale" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="productId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="saleQuantity" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="totalCost" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="toProduct" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="toSale" inverseEntity="Product"/>
+    </entity>
+    <elements>
+        <element name="Inventory" positionX="0" positionY="108" width="128" height="149"/>
+        <element name="Product" positionX="-27" positionY="18" width="128" height="164"/>
+        <element name="Purchase" positionX="-18" positionY="90" width="128" height="119"/>
+        <element name="Sale" positionX="-27" positionY="63" width="128" height="119"/>
+    </elements>
+</model>
