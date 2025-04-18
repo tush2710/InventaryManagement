@@ -7,13 +7,51 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+struct Wrapper<T> {
+    var value: T
+}
 
+protocol Printable {
+    func printValue()
+}
+
+
+extension Wrapper: Printable where T: CustomStringConvertible{
+    func printValue() {
+        print(value.description)
+    }
+}
+class BaseViewController: UIViewController {
+    struct Person {
+        var name: String
+        var age: Int
+    }
+
+    let nameKeyPath = \Person.name
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        print("Apple") //1
+        DispatchQueue.main.async{
+            print("iPod") //3
+            
+            DispatchQueue.main.async{
+                print("iPhone") //7
+            }
+            
+            DispatchQueue.global().sync{
+                print("iPad") //4
+            }
+            
+            DispatchQueue.main.sync{
+                print("Mac") // 5
+            }
+            
+            print("Apple Watch") // 6
+        }
+        print("Apple TV") //2
     }
 
     //Simple alert message
@@ -31,6 +69,10 @@ class BaseViewController: UIViewController {
         })
         alert.addAction(OKAction)
         self.present(alert, animated: true, completion: nil)
+    }
+    
+    func sum(numbers: Int...) -> Int {
+        return numbers.reduce(0, +)
     }
 }
 
