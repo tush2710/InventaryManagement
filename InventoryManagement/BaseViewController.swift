@@ -32,26 +32,6 @@ class BaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("Apple") //1
-        DispatchQueue.main.async{
-            print("iPod") //3
-            
-            DispatchQueue.main.async{
-                print("iPhone") //7
-            }
-            
-            DispatchQueue.global().sync{
-                print("iPad") //4
-            }
-            
-            DispatchQueue.main.sync{
-                print("Mac") // 5
-            }
-            
-            print("Apple Watch") // 6
-        }
-        print("Apple TV") //2
     }
 
     //Simple alert message
